@@ -60,7 +60,7 @@ python populate_packages:prepend() {
 }
 
 RDEPENDS:${PN}-ptest += "${PN}-modules ${PN}-doc sed procps-ps"
-RRECOMMENDS:${PN}-ptest += "gcc libxcrypt-dev"
+RRECOMMENDS:${PN}-ptest += "gcc libxcrypt-dev g++"
 
 # The perl-ptest package contains Perl internal modules and generating file
 # dependencies for it causes problems.
